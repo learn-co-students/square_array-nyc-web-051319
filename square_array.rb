@@ -1,12 +1,12 @@
 
+
 def square_array(array)
+new_array = []
 
 array.each do |numbers|
-  square_array(numbers ** array )
-.take(array.length)
-
-
-new_numbers = array.each
+   new_array << numbers ** 2
 
 end
+
+new_array
 end
